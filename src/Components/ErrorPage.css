@@ -1,0 +1,26 @@
+.error-page {
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 30vw;
+
+  background: linear-gradient(270deg, #2bd7ab77, #20557477);
+  background-size: 400% 400%;
+
+  animation: Waves 7s ease infinite;
+}
+
+@keyframes Waves {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
